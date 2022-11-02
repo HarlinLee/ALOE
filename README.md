@@ -28,7 +28,7 @@ This will load the features and correspoding labels, perform active learning for
 
 ### Citation
 ```
-@inproceedings{Lee2022ActiveLO,
+@inproceedings{Lee2022Active,
   title={Active Learning of Non-semantic Speech Tasks with Pretrained Models},
   author={Harlin Lee and Aaqib Saeed and A. Bertozzi},
   journal={arXiv preprint arXiv:2211.00119},
