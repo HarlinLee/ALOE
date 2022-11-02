@@ -15,7 +15,7 @@ def create_classifier(input_shape, n_classes, learning_rate=0.001):
         - input_shape: shape of numpy array of features extracted from a pretrained model.
         - n_classes: number of classes
     Output:
-        - model: tf.keras.model.Model object, trained linear classifier
+        - model: tf.keras.model.Model object, linear classifier
     """
     model = tf.keras.models.Sequential()
     model.add(tf.keras.layers.InputLayer(input_shape=input_shape))
