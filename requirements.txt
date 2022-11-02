@@ -1,0 +1,7 @@
+tensorflow-gpu==2.9
+tensorflow-addons
+tensorflow-hub
+tensorflow-datasets
+graphlearning
+pydub
+numpy
