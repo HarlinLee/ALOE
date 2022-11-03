@@ -57,7 +57,7 @@ if __name__ == "__main__":
   features, labels = [], []
   for i, (x,y) in enumerate(ds_train):
     f = model(x)
-    features.append(f.numpy())
+    features.append(f)
     labels.append(y.numpy())
   features = np.vstack(features)
   labels = np.concatenate(labels)
@@ -68,7 +68,7 @@ if __name__ == "__main__":
   features, labels = [], []
   for i, (x,y) in enumerate(ds_val):
     f = model(x)
-    features.append(f.numpy())
+    features.append(f)
     labels.append(y.numpy())
   features = np.vstack(features)
   labels = np.concatenate(labels)
