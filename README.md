@@ -28,10 +28,11 @@ This will load the features along with correspoding labels and perform active le
 
 ### Citation
 ```
-@inproceedings{Lee2022Active,
+@inproceedings{lee2023active,
   title={Active Learning of Non-semantic Speech Tasks with Pretrained Models},
-  author={Harlin Lee and Aaqib Saeed and A. Bertozzi},
-  journal={arXiv preprint arXiv:2211.00119},
-  year={2022}
+  author={Lee, Harlin and Saeed, Aaqib and Bertozzi, Andrea L},
+  booktitle={ICASSP 2023-2023 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)},
+  year={2023},
+  organization={IEEE}
 }
 ```
