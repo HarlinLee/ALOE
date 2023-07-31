@@ -36,7 +36,7 @@ if __name__ == "__main__":
   autotune = tf.data.AUTOTUNE
 
   print("Loading speech_commands dataset...", flush=True)
-  (ds_train, ds_val, ds_test), ds_info = tfds.load("speech_commands", 
+  (ds_train, ds_val, ds_test), ds_info = tfds.load(dataset, 
     split=["train", "validation", "test"], shuffle_files=True, 
     as_supervised=True, with_info=True)
   num_classes =  ds_info.features["label"].num_classes
